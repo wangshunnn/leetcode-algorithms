@@ -3,6 +3,7 @@
  * - 时间复杂度：O(N)，其中 N 是字符串的长度。
  * - 空间复杂度：O(∣Σ∣)，其中 Σ 表示字符集（即字符串中可以出现的字符），∣Σ∣ 表示字符集的大小。
  */
+
 function lengthOfLongestSubstring(s: string): number {
   // 哈希集合，记录每个字符是否出现过
   const occ = new Set();
