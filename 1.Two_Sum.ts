@@ -1,3 +1,9 @@
+/**
+ * 哈希表
+ * - 时间复杂度：O(N)，其中 N 是数组中的元素数量。
+ * - 空间复杂度：O(N)，其中 N 是数组中的元素数量。主要为哈希表的开销。
+ */
+
 function twoSum(nums: number[], target: number): number[] {
   const hashMap = new Map<number, number>();
   for (let index in nums) {
