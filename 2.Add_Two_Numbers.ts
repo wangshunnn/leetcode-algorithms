@@ -1,4 +1,10 @@
 /**
+ * 双链表遍历
+ * - 时间复杂度：O(max(m,n))，其中 m 和 n 分别为两个链表的长度。
+ * - 空间复杂度：O(1)。
+ */
+
+/**
  * Definition for singly-linked list.
  * class ListNode {
  *     val: number
