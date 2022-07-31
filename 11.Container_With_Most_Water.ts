@@ -8,12 +8,12 @@ function maxArea(height: number[]): number {
     let volum: number = 0;
     while (left < right) {
         const _volum: number = (right - left) * Math.min(height[left], height[right])
-        volum = Math.max(volum, _volum)
+        volum = Math.max(volum, _volum);
         if (height[left] < height[right]) {
             left++;
         } else {
             right--;
         }
     }
-    return volum
+    return volum;
 };
