@@ -1,4 +1,9 @@
-// 回溯递归
+/**
+ * 回溯递归算法
+ * 时间复杂度：时间复杂度：O(3^m x 4^n)
+ * 空间复杂度：O(m+n)
+ * 其中 m 是输入中对应 3 个字母的数字个数（包括数字 2、3、4、5、6、8），n 是输入中对应 4 个字母的数字个数（包括数字 7、9）
+ */
 function letterCombinations(digits: string): string[] {
     if (digits.length === 0) return []
     const hashMap = {
