@@ -1,7 +1,7 @@
 # leetcode-algorithms
 
-拿下数据结构与算法，主要用 TS 写。 ;)
+> ✍️ 数据结构与算法
 
-每道题命名格式：[题号].[题目英文名].ts（题号和题目英文名均与 leetcode 官网对应一致）。
+_命名格式：[题号].[题目名].ts（与 leetcode 官网一致）_
 
-- [LeetCode 热题 HOT 100](https://leetcode.cn/problem-list/2cktkvj/)
+-   [LeetCode 热题 HOT 100](https://leetcode.cn/problem-list/2cktkvj/)
