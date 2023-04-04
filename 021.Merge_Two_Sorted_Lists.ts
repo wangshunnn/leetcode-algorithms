@@ -26,6 +26,7 @@ function mergeTwoLists(
     if (list2) pre.next = list2
     return dummy.next
 }
+
 /** Definition for singly-linked list. */
 class ListNode {
     val: number
